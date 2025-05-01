@@ -1,16 +1,17 @@
-# firebase_learning
+# Firebase Example App
 
-A new Flutter project.
+This project demonstrates the usage of multiple Firebase services
 
-## Getting Started
+- Firebase Authentication
+- Firebase Storage
+- Firebase Analytics
+- Cloud Functions
+- Cloud Firestore
 
-This project is a starting point for a Flutter application.
+## Firebase Setup
 
-A few resources to get you started if this is your first Flutter project:
+This project uses Firebase for both iOS and Android. To run the project successfully, you must provide your own Firebase configuration files, which are **not included** in the repository.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `android/app/google-services.json`
+- `ios/Runner/GoogleService-Info.plist`
+- `lib/config/firebase/firebase_options.dart`
